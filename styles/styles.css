@@ -1,0 +1,46 @@
+body{
+    background-image: url("../images/earthMoonNASA.png");    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 5%;
+    margin: 5%;
+    border-radius: 50px;
+
+}
+.title{
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2%;
+    margin: 2%;
+    border-radius: 50px;
+}
+.photoBox{
+    background-image: url("../images/astronautMaeJemison.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid #D9D9D9;
+    border-radius: 50px;
+    outline: 15px solid rgba(255, 255, 255, 0.2);
+    width: 50vw;
+    height: 100vh;
+    margin: 2%;
+}
+.lifeList{
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2%;
+    margin: 2%;
+    border-radius: 50px;
+}
+.seeAlsoLinks{
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2%;
+    margin: 2%;
+    border-radius: 50px;
+}
